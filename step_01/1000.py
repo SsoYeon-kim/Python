@@ -1,2 +1,4 @@
 A, B = input().split()
-print(int(A) + int(B))
+
+if(0 < int(A) and int(B) < 10):  
+    print(int(A) + int(B))
